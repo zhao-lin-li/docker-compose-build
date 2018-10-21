@@ -1,6 +1,6 @@
 version: '2'
 services:
   app:
-    image: tomcat:9.0.12
+    build: .
     ports:
       - "8081:8080"
